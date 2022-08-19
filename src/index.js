@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import SeasonDisplay from "./SeasonDisplay";
 import './SeasonDisplay.css';  // webpack will add to index.html
+import Spinner from './Spinner';
+import './style/App.css'
 
 class App extends React.Component {
     // initialize object states 
@@ -34,15 +36,13 @@ class App extends React.Component {
     componentDidUpdate() {
         console.log('componentDidUpdate ran');
     };
-    // clean-up, esp. for non-React studd
+    // clean-up, esp. for non-React stuff
     componentWillUnmount() {
         console.log('componentWillUnmount ran');
     }
 
-
-
-    // conditional rendering
-    render() {
+    // Helper function for render method (e.g. for conditional logic)
+    renderContent() {
         if (this.state.errorMessage && !this.state.lat) {
             return <div>Error: {this.state.errorMessage}</div>
         };
@@ -50,8 +50,16 @@ class App extends React.Component {
         if (!this.state.errorMessage && this.state.lat) {
             return <SeasonDisplay lat={this.state.lat} />
         };
+        return <Spinner message="Please accept location request" />;
+    };
 
-        return <div>Loading...</div>;
+    // conditional rendering; show spinner while waiting for response from API
+    render() {
+        return (
+            <div className="border-red">
+                {this.renderContent()}
+            </div>
+        );
     };
 };
 

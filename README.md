@@ -1,3 +1,8 @@
+# Seasons react project
+Uses the current user's current location and date to display a message about the current season. Uses React, HTML, JSX, CSS and Semantic-UI. 
+
+---------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
