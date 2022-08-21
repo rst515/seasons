@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.525df282.css",
-    "main.js": "/static/js/main.3806b1e1.js",
-    "static/media/sensei.ttf": "/static/media/sensei.812e42a9408700657b80.ttf",
-    "static/media/sparkles.png": "/static/media/sparkles.f8426952ed504552902b.png",
-    "static/media/clouds.png": "/static/media/clouds.d03ea592518ec3db7c8f.png",
-    "static/media/sparkles2.png": "/static/media/sparkles2.359d3175ca42fbabbc4f.png",
-    "static/media/sparkles3.png": "/static/media/sparkles3.a8949de85d00093d5c6e.png",
-    "index.html": "/index.html",
-    "main.525df282.css.map": "/static/css/main.525df282.css.map",
-    "main.3806b1e1.js.map": "/static/js/main.3806b1e1.js.map"
+    "main.css": "/seasons/static/css/main.fb9c7a8c.css",
+    "main.js": "/seasons/static/js/main.3806b1e1.js",
+    "static/media/sensei.ttf": "/seasons/static/media/sensei.812e42a9408700657b80.ttf",
+    "static/media/sparkles.png": "/seasons/static/media/sparkles.f8426952ed504552902b.png",
+    "static/media/clouds.png": "/seasons/static/media/clouds.d03ea592518ec3db7c8f.png",
+    "static/media/sparkles2.png": "/seasons/static/media/sparkles2.359d3175ca42fbabbc4f.png",
+    "static/media/sparkles3.png": "/seasons/static/media/sparkles3.a8949de85d00093d5c6e.png",
+    "index.html": "/seasons/index.html",
+    "main.fb9c7a8c.css.map": "/seasons/static/css/main.fb9c7a8c.css.map",
+    "main.3806b1e1.js.map": "/seasons/static/js/main.3806b1e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.525df282.css",
+    "static/css/main.fb9c7a8c.css",
     "static/js/main.3806b1e1.js"
   ]
 }
